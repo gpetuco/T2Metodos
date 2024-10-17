@@ -1,21 +1,23 @@
 Aluno: Gabriel Frigo Petuco
-
-Executar:
+==========================
+Executar
 ==========================
 
 simulador.py considera a entrada definida em entrada.yaml
 
 Comando: python simulador.py
 
+Conforme necessário, alterar variável "iteracoes" na linha 72 em simulador.py. Deixei como 100.000
+==================================
 .yaml (entrada)
 ==================================
 
-Tamanho: quantidade de filas.
-F: id da fila
-ProxFila: probabilidade de rotacionar para outra fila proxima
-MesmaFila: probabilidade de rotacionar para ela mesma
-Sair: probabilidade de rotacionar para fora do sistema
-Servidores: número de servidores
-Capacidade: capacidade da fila
-Chegada: tempos de entrada
-Saida: tempos de saida
+Tamanho: quantidade de filas<br>
+F: fila<br>
+ProxFila: probabilidade de ir para próxima fila<br>
+MesmaFila: probabilidade de ir para mesma fila<br>
+Sair: probabilidade de sair<br>
+Servidores: número de servidores<br>
+Capacidade: capacidade da fila<br>
+Chegada: tempo entrada<br>
+Saida: tempos saída
